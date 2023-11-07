@@ -10,10 +10,10 @@ There are no steps required to install the project, simply accessing the website
 
 ## Usage
 
-The user answers a series of questions provided by prompt boxes upon entering or refreshing the website. Once all of the questions have been answered the user presses the button on screen to generate a unique password that meets their specifications. If pressing the button yields an undefined result the user can click inspect to view the console. The password should be visible in the console.
+The user answers a series of questions provided by prompt boxes upon entering or refreshing the website. Once all of the questions have been answered the user presses the button on screen to generate a unique password that meets their specifications. 
 
 ## Credits
 
-I referred to StackOverflow when I was stumped and found one particularly useful post regarding the creation of randomized strings of characters. 
+I received help from my class' Teaching Assistant during office hours. I referred to StackOverflow when I was stumped and found one particularly useful post regarding the creation of randomized strings of characters. 
 
 https://stackoverflow.com/questions/1349404/generate-random-string-characters-in-javascript

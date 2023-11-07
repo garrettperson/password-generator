@@ -100,6 +100,8 @@ while (specc) {
 
 function generatePassword() {
 
+var passwordToReturn = ""
+
 const Low = "abcdefghijklmnopqrstuvwxyz"
 const Up = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 const Num = "0123456789"
@@ -117,7 +119,7 @@ if (lowerc === "Y" && upperc ==="Y" && numeric === "Y" && specc === "Y") {
     }
     return result;
   }
-  console.log(makepw2(num1))
+  passwordToReturn = makepw2(num1)
 }
 
 else if (lowerc === "Y" && upperc ==="Y" && numeric === "Y") {
@@ -132,7 +134,7 @@ else if (lowerc === "Y" && upperc ==="Y" && numeric === "Y") {
     }
     return result;
   }
-  console.log(makepw3(num1))
+  passwordToReturn = makepw3(num1)
 }
 
 else if (upperc === "Y" && numeric === "Y" && specc === "Y") {
@@ -147,7 +149,7 @@ else if (upperc === "Y" && numeric === "Y" && specc === "Y") {
     }
     return result;
   }
-  console.log(makepw4(num1))
+  passwordToReturn = makepw4(num1)
 }
 
 else if (lowerc === "Y" && upperc === "Y" && specc === "Y") {
@@ -162,7 +164,7 @@ else if (lowerc === "Y" && upperc === "Y" && specc === "Y") {
     }
     return result;
   }
-  console.log(makepw5(num1))
+  passwordToReturn = makepw5(num1)
 }
 
 else if (lowerc === "Y" && numeric === "Y" && specc === "Y") {
@@ -177,7 +179,7 @@ else if (lowerc === "Y" && numeric === "Y" && specc === "Y") {
     }
     return result;
   }
-  console.log(makepw6(num1))
+  passwordToReturn = makepw6(num1)
 }
 
 else if (lowerc === "Y" && upperc ==="Y") {
@@ -192,7 +194,7 @@ else if (lowerc === "Y" && upperc ==="Y") {
     }
     return result;
   }
-  console.log(makepw1(num1))
+  passwordToReturn = makepw1(num1)
 }
 
 else if (lowerc === "Y" && numeric === "Y") {
@@ -207,7 +209,7 @@ else if (lowerc === "Y" && numeric === "Y") {
     }
     return result;
   }
-  console.log(makepw7(num1))
+  passwordToReturn = makepw7(num1)
 }
 
 else if (lowerc === "Y" && specc === "Y") {
@@ -222,7 +224,7 @@ else if (lowerc === "Y" && specc === "Y") {
     }
     return result;
   }
-  console.log(makepw8(num1))
+  passwordToReturn = makepw8(num1)
 }
 
 
@@ -238,7 +240,7 @@ else if (upperc === "Y" && numeric === "Y") {
     }
     return result;
   }
-  console.log(makepw9(num1))
+  passwordToReturn = makepw9(num1)
 }
 
 else if (upperc === "Y" && specc === "Y") {
@@ -253,7 +255,7 @@ else if (upperc === "Y" && specc === "Y") {
     }
     return result;
   }
-  console.log(makepw10(num1))
+  passwordToReturn = makepw10(num1)
 }
 
 else if (numeric === "Y" && specc === "Y") {
@@ -268,7 +270,7 @@ else if (numeric === "Y" && specc === "Y") {
     }
     return result;
   }
-  console.log(makepw11(num1))
+  passwordToReturn = makepw11(num1)
 }
 
 else if (upperc === "Y") {
@@ -283,7 +285,7 @@ else if (upperc === "Y") {
     }
     return result;
   }
-  console.log(makepw12(num1))
+  passwordToReturn = makepw12(num1)
 }
 
 else if (lowerc === "Y") {
@@ -298,7 +300,7 @@ else if (lowerc === "Y") {
     }
     return result;
   }
-  console.log(makepw13(num1))
+  passwordToReturn = makepw13(num1)
 }
 
 else if (numeric === "Y") {
@@ -313,7 +315,7 @@ else if (numeric === "Y") {
     }
     return result;
   }
-  console.log(makepw14(num1))
+  passwordToReturn = makepw14(num1)
 }
 
 else if (specc === "Y") {
@@ -328,8 +330,11 @@ else if (specc === "Y") {
     }
     return result;
   }
-  console.log(makepw15(num1))
+  passwordToReturn = makepw15(num1)
 }
+
+return passwordToReturn
+
 }
 
 
